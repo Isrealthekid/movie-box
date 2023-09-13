@@ -1,0 +1,147 @@
+.featured__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.featured__header > span{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.featured__header-text{
+    color: #000;
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.featured__header > span >svg {
+    font-size: 20px;
+    justify-self: center;
+    
+}
+.featured__header > .seemore {
+color: var(--color-main);
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.featured__content {
+
+        width: 90vw;
+        margin: 0 auto;
+        max-width: 1170px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 2rem;
+    
+}
+
+.movie-card{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 250px;
+}
+
+
+.movie-poster{
+    max-width: 250px;
+    width: 100%;
+    position: relative;    
+}
+
+.release-date{
+    margin: 12px 0;
+
+color: var(--color-gray);
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.movie-title{
+color: var(--color-black);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+
+.movie-rating{
+color: var(--color-gray);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+align-items: center;
+justify-content: space-between;
+display: flex;
+
+margin: 1rem 0;
+}
+
+.movie-rating > span {
+align-items: center;
+
+display: flex;
+}
+
+.movie-rating > span > span {
+    margin-left: 1rem;
+}
+
+
+.movie-genre{
+color: var(--color-gray);
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+
+
+}
+
+.like > img {
+    padding: 1px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.like{
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 12px;
+    display: inline-block;
+    /* padding: 0.19rem 0.625rem; */
+    /* transform: translateY(-40px); */
+    
+}
+
+.like > img:hover{
+    background-color: var(--color-main);
+}
+
+.series{
+    color: #fff;
+    background-color: var(--color-gray);
+    
+    border-radius: 12px;
+    padding: 3px 8px;
+    position: absolute;;
+    font-size: 10px;
+    display: inline-block;
+    
+    top: 1rem;
+    left:1rem;
+
+}
